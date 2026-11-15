@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "updatedAt": "2026-11-15T09:43:50.410Z",
+  "sessions": {
+    "Тишина_Maxichen": {
+      "id": "Тишина_Maxichen",
+      "status": "running",
+      "desiredState": "running",
+      "autoStart": true,
+      "printQR": true,
+      "method": "qr",
+      "phoneNumber": null,
+      "pm2Name": "Тишина_Maxichen",
+      "createdAt": 1794692731407,
+      "updatedAt": 1794735830409,
+      "lastStartedAt": 1794735829427,
+      "lastConnectedAt": 1794735830409,
+      "lastDisconnectedAt": 1794693501783,
+      "lastPausedAt": null,
+      "lastStoppedAt": null,
+      "lastDeletedAt": null,
+      "lastPairingCodeAt": null,
+      "lastError": null,
+      "lastDisconnectCode": 0,
+      "retryCount": 0,
+      "retryLimit": 10,
+      "browser": null
+    }
+  }
+}

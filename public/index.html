@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Тишина — eine ruhige Stimme in einer lauten Welt. Ein WhatsApp-Bot-Projekt von Maxichen.">
+  <title>Тишина — A quiet voice in a noisy world</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js?v=5" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="Тишина Startseite">Тишина <span>🥀</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menü</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Hauptnavigation">
+      <a href="/">Startseite</a><a href="/about">Über den Bot</a><a href="#features">Funktionen</a>
+      <a href="/commands">Commands</a><a href="/status">Status</a><a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">WhatsApp Bot · By Maxichen</p>
+        <h1 id="hero-title">Т И Ш И Н А</h1>
+        <p class="hero-quote" lang="ru">Иногда тишина говорит больше,<br>чем тысяча слов.</p>
+        <p class="hero-translation">Manchmal sagt die Stille mehr als tausend Worte.</p>
+        <p class="hero-tagline">A quiet voice in a noisy world.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#about">Тишина entdecken</a>
+          <a class="button button-quiet" href="#features">Bot-Funktionen ansehen</a>
+        </div>
+        <p class="signature">Developed by Maxichen.</p>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Weiter scrollen">↓</a>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="section-copy reveal">
+        <p class="eyebrow">Eine eigene digitale Persönlichkeit</p>
+        <h2>Mehr als nur ein<br>WhatsApp-Bot.</h2>
+        <p>Тишина ist ein eigenständiges WhatsApp-Bot-Projekt von Maxichen. Inspiriert von stillen Nächten, vergessenen Erinnerungen, russischer Poesie und der Atmosphäre eines regnerischen Winters.</p>
+        <p>Eine Verbindung aus moderner Technik, hilfreichen Funktionen und einer ruhigen, wiedererkennbaren Persönlichkeit.</p>
+        <a class="text-link" href="/about">Die Geschichte kennenlernen <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="about-emblem reveal"><img src="/assets/logo.svg" alt="Тишина Logo: dunkle Rose in einer stillen Winternacht"></div>
+    </section>
+
+    <section class="section philosophy-section">
+      <div class="section-heading reveal"><p class="eyebrow">Stille · Sehnsucht · Hoffnung</p><h2>Die Bedeutung der Stille.</h2></div>
+      <div class="philosophy-grid">
+        <article class="thought-card thought-memory reveal"><span>01</span><h3>Erinnerungen</h3><p>Manche Momente bleiben bestehen, auch wenn die Zeit vergeht.</p></article>
+        <article class="thought-card thought-thought reveal"><span>02</span><h3>Gedanken</h3><p>Nicht alles muss ausgesprochen werden, um verstanden zu sein.</p></article>
+        <article class="thought-card thought-new reveal"><span>03</span><h3>Neuanfänge</h3><p>Auch nach einer langen Nacht beginnt ein neuer Morgen.</p></article>
+      </div>
+    </section>
+
+    <section id="features" class="section feature-section">
+      <div class="section-heading reveal"><p class="eyebrow">Technik mit Persönlichkeit</p><h2>Was Тишина ausmacht.</h2></div>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><span class="feature-mark">⌘</span><h3>WhatsApp-Commands</h3><p>Alltagshilfe, Gruppenfunktionen und Verwaltung über bekannte Textbefehle.</p></article>
+        <article class="feature-card reveal"><span class="feature-mark">▤</span><h3>Interaktives Menü</h3><p>Kategorien auswählen und sich mit unterstützten WhatsApp-Schaltflächen orientieren.</p></article>
+        <article class="feature-card reveal"><span class="feature-mark">◌</span><h3>Community</h3><p>Gruppeninformationen und anpassbare Begrüßungen für gemeinsame Räume.</p></article>
+        <article class="feature-card reveal"><span class="feature-mark">♙</span><h3>Owner-Verwaltung</h3><p>Abgestufte Berechtigungen. Private Owner-Daten bleiben vom öffentlichen Auftritt getrennt.</p></article>
+        <article class="feature-card reveal"><span class="feature-mark">✧</span><h3>Optionale KI</h3><p>Derzeit nur nach Einrichtung eines kompatiblen KI-Endpunkts verfügbar. Standardmäßig deaktiviert.</p></article>
+        <article class="feature-card reveal"><span class="feature-mark">◷</span><h3>Öffentlicher Status</h3><p>Der Status auf dieser Seite wird aus einem aktuellen Bot-Heartbeat abgeleitet.</p></article>
+      </div>
+    </section>
+
+    <section class="section menu-section">
+      <div class="section-heading reveal"><p class="eyebrow">Zum Ausprobieren</p><h2>Ein kleiner Blick ins Menü.</h2><p>Wähle eine Kategorie. Auf dem Smartphone kannst du auch seitlich wischen.</p></div>
+      <div class="menu-demo reveal" id="menu-demo" tabindex="0" aria-label="Interaktive Menü-Demo">
+        <div class="demo-top"><span class="status-dot"></span><span>Т И Ш И Н А</span><span class="demo-flower">🥀</span></div>
+        <p class="demo-caption">Иногда тишина говорит больше, чем тысяча слов.</p>
+        <div class="demo-bot-info" aria-label="Bot-Information">
+          <span><small>Name</small><strong>Тишина</strong></span>
+          <span><small>Version</small><strong>2.0.0</strong></span>
+          <span><small>Owner</small><strong>Maxichen</strong></span>
+          <span><small>Stil</small><strong>ruhig & klar</strong></span>
+        </div>
+        <p class="demo-welcome">Willkommen in einer ruhigeren Welt.</p>
+        <div class="demo-shortcuts" aria-label="Schnellzugriff">
+          <a class="demo-shortcut demo-shortcut-primary" href="/commands"><span aria-hidden="true">⌘</span> Alle Befehle</a>
+          <a class="demo-shortcut" href="#status-panel"><span aria-hidden="true">◌</span> Systemstatus</a>
+        </div>
+        <div class="demo-tabs" id="demo-tabs" role="tablist" aria-label="Menükategorien"></div>
+        <div class="demo-content" id="demo-content" aria-live="polite"></div>
+        <p class="demo-feedback" id="demo-feedback" role="status" aria-live="polite"></p>
+        <div class="demo-controls">
+          <button type="button" class="icon-button" id="demo-prev" aria-label="Vorherige Kategorie">◀ Zurück</button>
+          <span id="demo-page" aria-live="polite">1 / 5</span>
+          <button type="button" class="icon-button" id="demo-next" aria-label="Nächste Kategorie">Weiter ▶</button>
+        </div>
+        <p class="demo-signature">— Тишина 🥀 <span>By Maxichen</span></p>
+      </div>
+    </section>
+
+    <section class="section commands-preview">
+      <div class="section-heading reveal"><p class="eyebrow">Übersicht</p><h2>Befehle, klar geordnet.</h2></div>
+      <div id="command-preview" class="command-preview-grid"></div>
+      <a class="button button-quiet" href="/commands">Alle Commands ansehen</a>
+    </section>
+
+    <section id="status-panel" class="section status-section">
+      <div class="section-heading reveal"><p class="eyebrow">Ein Blick in die Nacht</p><h2>Systemstatus</h2></div>
+      <div class="status-card reveal">
+        <div class="status-title"><span>🥀</span><h3>Тишина — System Status</h3><span id="status-updated" class="muted">wird geladen</span></div>
+        <dl id="status-list" class="status-list">
+          <div><dt>WhatsApp</dt><dd>Unbekannt</dd></div><div><dt>Webserver</dt><dd>Online</dd></div>
+          <div><dt>Bot-Version</dt><dd>–</dd></div><div><dt>KI-System</dt><dd>Deaktiviert</dd></div>
+          <div><dt>Wartung</dt><dd>Unbekannt</dd></div>
+        </dl>
+        <p id="status-note" class="muted">Status wird mit dem nächsten Bot-Heartbeat aktualisiert.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card reveal"><p class="eyebrow">Kontakt & Projekt</p><h2>Тишина 🥀</h2><p>Eine ruhige Stimme in einer lauten Welt.<br>Developed by Maxichen.</p><a class="text-link" href="https://maxichen.de">maxichen.de <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="/">Тишина <span>🥀</span></a><p>A quiet voice in a noisy world.<br>Developed by Maxichen.</p><nav aria-label="Rechtliches"><a href="/privacy">Datenschutz</a><a href="/imprint">Impressum</a><a href="#contact">Kontakt</a></nav><small>© 2026 By Maxichen.</small></footer>
+</body>
+</html>

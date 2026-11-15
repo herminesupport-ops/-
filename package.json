@@ -1,0 +1,51 @@
+{
+  "name": "Тишинаbasev3",
+  "version": "2.0.0",
+  "description": "Тишина — ein ruhiger WhatsApp-Multi-Session-Bot mit poetischem Branding, Welcome-System und Owner-/Session-Commands.",
+  "private": true,
+  "main": "Тишина.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Тишина.js",
+    "website": "node server.js",
+    "dev": "node --watch Тишина.js",
+    "build": "node --check Тишина.js && node --check server.js && node --check public/script.js && node --check lib/group-message.js && node --check lib/message-send.js && node --check lib/tagall.js && node --check lib/menu.js && node --check scripts/ai-label-test.js",
+    "test": "node --test smoke.test.js",
+    "ai-label:test": "node scripts/ai-label-test.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:restart": "pm2 restart ТишинаBaseV3 && pm2 restart ТишинаWebsite",
+    "pm2:stop": "pm2 delete ТишинаBaseV3 && pm2 delete ТишинаWebsite"
+  },
+  "keywords": [
+    "Тишина",
+    "Maxichen",
+    "WhatsApp",
+    "Baileys",
+    "Multi-Session",
+    "wa-api",
+    "ТишинаBase"
+  ],
+  "author": "Maxichen",
+  "license": "MIT",
+  "dependencies": {
+    "@itsliaaa/baileys": "0.5.6",
+    "@neelegirly/baileys": "^2.2.31",
+    "@neelegirly/downloader": "0.1.65",
+    "@neelegirly/libsignal": "^1.0.33",
+    "@neelegirly/wa-api": "^1.8.15",
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "lowdb": "^7.0.1",
+    "lru-cache": "^10.4.3",
+    "pm2": "^6.0.8",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}

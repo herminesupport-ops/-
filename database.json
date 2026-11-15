@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "createdAt": 1794690147841,
+    "updatedAt": 1794735839442,
+    "version": "2.0.0"
+  },
+  "users": {
+    "e5291196dab78e1fdab2ef1886d75c9c": {
+      "jid": "214478570418232@lid",
+      "pushName": null,
+      "registered": false,
+      "name": null,
+      "age": null,
+      "level": 1,
+      "xp": 0,
+      "createdAt": 1794693506810,
+      "lastSeenAt": 1794693509535,
+      "registeredAt": null,
+      "commandCount": 0
+    },
+    "d1b89ca9d4d9c0581c1be84746c02855": {
+      "jid": "12056770279@s.whatsapp.net",
+      "pushName": "𓆩♡𓆪 910maxi 𓆩♡𓆪",
+      "registered": false,
+      "name": null,
+      "age": null,
+      "level": 4,
+      "xp": 390,
+      "createdAt": 1794693533787,
+      "lastSeenAt": 1794735833326,
+      "registeredAt": null,
+      "commandCount": 26
+    },
+    "df09cf9ae1db5b03ca9b45f8528d4217": {
+      "jid": "120363413916486684@g.us",
+      "pushName": null,
+      "registered": false,
+      "name": null,
+      "age": null,
+      "level": 1,
+      "xp": 0,
+      "createdAt": 1794693535153,
+      "lastSeenAt": 1794734571035,
+      "registeredAt": null,
+      "commandCount": 0
+    },
+    "4b7f29de4370101fee87c09b20fd58c4": {
+      "jid": "4915224167090@s.whatsapp.net",
+      "pushName": "Lilly🦋🦅",
+      "registered": false,
+      "name": null,
+      "age": null,
+      "level": 1,
+      "xp": 0,
+      "createdAt": 1794694105360,
+      "lastSeenAt": 1794695549871,
+      "registeredAt": null,
+      "commandCount": 0
+    },
+    "f24ff38e322af37f631485f40d274a0a": {
+      "jid": "4915156431698@s.whatsapp.net",
+      "pushName": "𝓛𝓮𝓪𝓷𝓪🪽",
+      "registered": false,
+      "name": null,
+      "age": null,
+      "level": 1,
+      "xp": 0,
+      "createdAt": 1794694158594,
+      "lastSeenAt": 1794694194564,
+      "registeredAt": null,
+      "commandCount": 0
+    },
+    "41559ea0fbaca0db011ec3310d2a4be5": {
+      "jid": "4917673081056@s.whatsapp.net",
+      "pushName": "ꪶRΛVΞN🦅ꫂ | ᶦ ᵃᵐJakob◉⁠‿⁠◉",
+      "registered": false,
+      "name": null,
+      "age": null,
+      "level": 1,
+      "xp": 0,
+      "createdAt": 1794695577899,
+      "lastSeenAt": 1794696222341,
+      "registeredAt": null,
+      "commandCount": 0
+    }
+  },
+  "groups": {},
+  "sessions": {
+    "Тишина_Maxichen": {
+      "id": "Тишина_Maxichen",
+      "state": "online",
+      "desiredState": "running",
+      "createdAt": 1794691454222,
+      "updatedAt": 1794735830411,
+      "lastStartedAt": 1794735829112,
+      "lastMethod": "qr",
+      "phoneNumber": null,
+      "lastError": null
+    }
+  },
+  "settings": {
+    "prefix": "!",
+    "maintenance": false,
+    "aiEnabled": false,
+    "aiEnabledOverridden": false,
+    "aiUsage": {}
+  },
+  "stats": {
+    "totalMessages": 115,
+    "totalCommands": 26,
+    "totalWelcomes": 0,
+    "totalGoodbyes": 0,
+    "totalKicks": 0,
+    "commandUsage": {
+      "ping": 9,
+      "menu": 8,
+      "tagall": 6,
+      "me": 2,
+      "sessions": 1
+    }
+  }
+}

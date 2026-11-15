@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <circle cx="250" cy="250" r="250" fill="#080b12"/><circle cx="250" cy="250" r="218" fill="#0d1420" stroke="#526579" stroke-width="2"/>
+  <path d="M250 168c-45-48-11-76 6-45 26-35 59 6 15 45 38 16 12 58-15 33-24 30-58 5-30-31-34-4-34-46 24-34z" fill="#48212d" stroke="#80515e" stroke-width="3"/>
+  <path d="M250 230v79m0-51-40-18m40 0 36-21" fill="none" stroke="#526579" stroke-width="5"/>
+  <text x="250" y="380" fill="#e5e9ef" font-family="Georgia,serif" font-size="34" text-anchor="middle" letter-spacing="6">Тишина</text>
+  <text x="250" y="416" fill="#a8b8c8" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" letter-spacing="3">BY MAXICHEN</text>
+</svg>

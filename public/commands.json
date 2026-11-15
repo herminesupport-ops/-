@@ -1,0 +1,59 @@
+[
+  {
+    "category": "Allgemein",
+    "commands": [
+      { "name": "menu", "description": "Öffnet das interaktive Menü.", "permission": "Alle" },
+      { "name": "help", "description": "Zeigt die Hilfe und verfügbare Befehle.", "permission": "Alle" },
+      { "name": "ping", "description": "Prüft die Erreichbarkeit des Bots.", "permission": "Alle" },
+      { "name": "about", "description": "Informationen über Тишина.", "permission": "Alle" },
+      { "name": "owner", "description": "Zeigt die Owner-Verwaltung.", "permission": "Owner", "protected": true },
+      { "name": "rules", "description": "Zeigt die Gruppenregeln.", "permission": "Alle" },
+      { "name": "support", "description": "Zeigt Kontakt- und Hilfeinformationen.", "permission": "Alle" },
+      { "name": "ownercontact", "description": "Zeigt die öffentliche Projektwebsite.", "permission": "Alle" },
+      { "name": "plugins", "description": "Zeigt verfügbare Bot-Funktionen.", "permission": "Alle" },
+      { "name": "stats", "description": "Zeigt allgemeine Runtime-Statistiken.", "permission": "Alle" },
+      { "name": "register", "description": "Legt ein persönliches Bot-Profil an.", "permission": "Alle" },
+      { "name": "me", "description": "Zeigt das eigene Bot-Profil.", "permission": "Alle" }
+    ]
+  },
+  {
+    "category": "Informationen",
+    "commands": [
+      { "name": "version", "description": "Zeigt die installierte Bot-Version.", "permission": "Alle" },
+      { "name": "website", "description": "Zeigt maxichen.de.", "permission": "Alle" },
+      { "name": "status", "description": "Zeigt Statusinformationen.", "permission": "Alle" },
+      { "name": "uptime", "description": "Zeigt die Laufzeit.", "permission": "Alle" },
+      { "name": "prefix", "description": "Zeigt den aktiven Prefix.", "permission": "Alle" }
+    ]
+  },
+  {
+    "category": "Gedanken",
+    "commands": [
+      { "name": "quote", "description": "Noch nicht implementiert.", "permission": "Nicht verfügbar", "available": false },
+      { "name": "random", "description": "Noch nicht implementiert.", "permission": "Nicht verfügbar", "available": false },
+      { "name": "fact", "description": "Noch nicht implementiert.", "permission": "Nicht verfügbar", "available": false }
+    ]
+  },
+  {
+    "category": "Community",
+    "commands": [
+      { "name": "groupinfo", "description": "Zeigt Informationen zur aktuellen Gruppe.", "permission": "Gruppe" },
+      { "name": "addmeta", "description": "Fügt Meta AI zur Gruppe hinzu.", "permission": "Owner oder Gruppen-Admin" },
+      { "name": "kickmeta", "description": "Entfernt Meta AI aus der Gruppe.", "permission": "Owner oder Gruppen-Admin" },
+      { "name": "tagall", "description": "Erwähnt alle Gruppenmitglieder; optionale Ankündigung (Owner oder Gruppen-Admin, mit Schutzpause).", "permission": "Owner oder Gruppen-Admin" },
+      { "name": "welcome", "description": "Verwaltet Gruppenbegrüßungen und Abschiede.", "permission": "Gruppe" }
+    ]
+  },
+  {
+    "category": "Administration",
+    "commands": [
+      { "name": "ownerlist", "description": "Zeigt autorisierte Rollen, keine Telefonnummern.", "permission": "Owner", "protected": true },
+      { "name": "botinfo", "description": "Zeigt administrative Bot-Informationen.", "permission": "Owner", "protected": true },
+      { "name": "botstatus", "description": "Zeigt den detaillierten Botstatus.", "permission": "Owner", "protected": true },
+      { "name": "maintenance", "description": "Steuert den Wartungsmodus.", "permission": "Owner", "protected": true },
+      { "name": "logs", "description": "Zeigt gekürzte Fehlerprotokolle im Privat-Chat.", "permission": "Hauptinhaber", "protected": true },
+      { "name": "restart", "description": "Startet den Botprozess unter PM2 neu.", "permission": "Hauptinhaber", "protected": true },
+      { "name": "ai", "description": "Verwaltet oder fragt die optionale KI.", "permission": "Anfragen für alle; Aktivierung: Owner", "protected": false }
+    ]
+  }
+]

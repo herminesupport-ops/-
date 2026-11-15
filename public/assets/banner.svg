@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080b12"/><stop offset=".6" stop-color="#151c29"/><stop offset="1" stop-color="#0d1420"/></linearGradient><radialGradient id="light"><stop stop-color="#a8b8c8" stop-opacity=".3"/><stop offset="1" stop-color="#526579" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1500" height="500" fill="url(#bg)"/><ellipse cx="1200" cy="210" rx="310" ry="210" fill="url(#light)"/>
+  <path d="M0 270 250 190v310H0zm250-80 200 44v256H250zm790-40 220 50v260h-220zm220 50 240-80v340h-240z" fill="#080b12" opacity=".8"/>
+  <path d="M0 420 520 280h460l520 130v90H0z" fill="#0b1019"/>
+  <g stroke="#a8b8c8" stroke-opacity=".2"><path d="M60 10v100m110-56v91m240-99v88m310-120v140m390-85v110m220-156v132m90-78v95"/></g>
+  <text x="750" y="210" text-anchor="middle" fill="#e5e9ef" font-family="Georgia,serif" font-size="84" letter-spacing="22">Т И Ш И Н А</text>
+  <text x="750" y="270" text-anchor="middle" fill="#a8b8c8" font-family="Arial,sans-serif" font-size="23" letter-spacing="5">A QUIET VOICE IN A NOISY WORLD</text>
+  <text x="750" y="435" text-anchor="middle" fill="#80515e" font-family="Georgia,serif" font-size="20">🥀  BY MAXICHEN  🥀</text>
+</svg>
